@@ -1,0 +1,125 @@
+{
+  "document_id": "ROSENFELD-TJ-2027-2030-001",
+  "title": "ROSENFELD Temporal Jump Master Dossier 2027-2030",
+  "version": "1.0",
+  "start_snapshot": "SNAP-20270101-0000",
+  "end_snapshot": "SNAP-20301231-2359",
+  "start_date": "2027-01-01",
+  "end_date": "2030-12-31",
+  "time_mode": "historical_strategic_hybrid",
+  "truth_boundary": "real-world evidence available at execution date; future beyond evidence is simulated",
+  "player_decision_mandate": "delegated_to_simulator_for_this_jump",
+  "currency": {
+    "functional": "EUR",
+    "global_comparison": "USD"
+  },
+  "annual_focus": {
+    "2027": "foundation/productization",
+    "2028": "scale/internationalization",
+    "2029": "platform/category formation",
+    "2030": "consolidation/transition"
+  },
+  "decision_rules": [
+    "protect solvency and strategic control",
+    "prefer durable moats over publicity",
+    "reinvest aggressively when capacity and evidence support it",
+    "use debt for predictable assets/cash flow",
+    "use equity when organic capacity is insufficient or risk is reduced",
+    "buy assets for strategic utility, scarcity or capital compounding",
+    "separate net worth from liquidity",
+    "no action based on information unavailable to Lucien",
+    "all material actions require cost, timing, rationale and consequence"
+  ],
+  "surface_thresholds": {
+    "personal_asset_eur": 250000,
+    "personal_major_asset_eur": 1000000,
+    "ras_capex_single_eur": 250000,
+    "ras_capex_program_eur": 750000,
+    "ras_acquisition_eur": 5000000,
+    "ras_new_debt_eur": 5000000,
+    "ras_major_contract_eur": 2000000
+  },
+  "required_annual_outputs": [
+    "macro_photograph",
+    "company_rankings",
+    "wealth_rankings",
+    "technology_map",
+    "ras_financials",
+    "lucien_balance_sheet",
+    "event_chronology",
+    "audit"
+  ],
+  "required_final_outputs": [
+    "world_snapshot_2030",
+    "top50_public_companies",
+    "top50_fortunes",
+    "ras_full_state",
+    "lucien_full_state",
+    "asset_register",
+    "people_register",
+    "major_event_chronology",
+    "counterfactuals",
+    "final_audit"
+  ],
+  "truth_classes": [
+    "REAL",
+    "ANCHOR",
+    "SIM",
+    "DERIVED",
+    "PROJECTED",
+    "PENDING"
+  ],
+  "ids": {
+    "snapshot": "SNAP-YYYYMMDD-HHMM",
+    "event": "EVENT-YYYYMMDD-###",
+    "decision": "DEC-YYYYMMDD-###",
+    "transaction": "TRX-YYYYMMDD-###",
+    "contract": "CON-YYYY-####",
+    "asset": "ASSET-CLASS-####",
+    "audit": "AUD-YYYYMMDD-###"
+  },
+  "baseline_notes": {
+    "ras_employees_2027_01_01": 55,
+    "ras_revenue_2026_eur": 12530000,
+    "ras_cash_eur": 4920000,
+    "ras_debt_eur": 1100000,
+    "ras_equity_mark_eur": 52000000,
+    "lucien_fd_ownership": 0.4872,
+    "rpil_status": "stage_1_prototype"
+  },
+  "external_anchors": [
+    {
+      "topic": "IMF July 2026 WEO",
+      "truth": "REAL",
+      "note": "3.0% global growth 2026; 3.4% 2027 projection"
+    },
+    {
+      "topic": "LA28",
+      "truth": "REAL/ANCHOR",
+      "note": "14-30 July 2028"
+    },
+    {
+      "topic": "European Parliament elections",
+      "truth": "REAL/ANCHOR",
+      "note": "next elections due 2029"
+    }
+  ],
+  "execution_sequence": [
+    "freeze_start_snapshot",
+    "refresh_evidence_boundary",
+    "simulate_2027_Q1",
+    "audit",
+    "simulate_2027_Q2",
+    "audit",
+    "simulate_2027_Q3",
+    "audit",
+    "simulate_2027_Q4",
+    "annual_snapshot",
+    "repeat_2028",
+    "repeat_2029",
+    "simulate_2030_with_higher_endpoint_resolution",
+    "final_lock",
+    "final_audit",
+    "final_world_photograph"
+  ]
+}

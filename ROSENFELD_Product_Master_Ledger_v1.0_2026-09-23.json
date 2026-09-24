@@ -1,0 +1,333 @@
+{
+  "catalog_version": "1.0",
+  "effective_at": "2026-09-23T18:00:00+02:00",
+  "currency": "EUR",
+  "company": "COMP-001",
+  "products": [
+    {
+      "id": "PROD-001",
+      "sku": "ROS-PER-24",
+      "name": "Rosenfeld Perception Engine",
+      "version": "2.4",
+      "status": "Commercial",
+      "purpose": "Industrial perception and sensor-fusion layer that converts camera, depth, LiDAR, force and other sensor streams into a structured, machine-usable representation of the operating environment.",
+      "buyers": "Industrial manufacturers, process industries, logistics operators, machine builders, automated inspection teams.",
+      "deliverables": [
+        "Edge perception runtime",
+        "Calibration and sensor-fusion stack",
+        "Object / defect / state models",
+        "Event and anomaly feeds",
+        "Monitoring dashboard integration",
+        "Model update pipeline"
+      ],
+      "standard_price": "€150,000 / production site / year",
+      "implementation": "€35,000 onboarding / site",
+      "included": "Up to 12 production sensor streams, 2 edge compute nodes, 1 production line, 2 model families, standard API integration, quarterly model review.",
+      "addons": [
+        "Additional production line: €45,000/year",
+        "Additional 10 sensor streams: €12,000/year",
+        "Additional edge node: €18,000/year",
+        "Custom model family: €40,000 setup + €18,000/year"
+      ],
+      "direct_cost": "€28,000 / site / year standard recurring delivery COGS",
+      "gross_margin": "81.3% before allocated corporate R&D / G&A",
+      "delivery_time": "6–10 weeks for first deployment; 2–4 weeks for additional standardized sites",
+      "key_kpis": "precision/recall, defect escape rate, latency, calibration drift, false-alert rate, uptime",
+      "moat": "Industrial deployment data, calibration know-how, failure replay, integration library and customer-specific models."
+    },
+    {
+      "id": "PROD-002",
+      "sku": "ROS-MOT-17",
+      "name": "Rosenfeld Motion Stack",
+      "version": "1.7",
+      "status": "Commercial",
+      "purpose": "Planning, task execution and hybrid learned/model-based control for robot cells and mobile manipulation systems.",
+      "buyers": "Manufacturers with existing robots, automation integrators, machinery companies, industrial engineering teams.",
+      "deliverables": [
+        "Task planner",
+        "Motion / trajectory generation",
+        "Hybrid control policies",
+        "Robot abstraction layer",
+        "Recipe management",
+        "Safety-state interfaces",
+        "Performance telemetry"
+      ],
+      "standard_price": "€180,000 / production robot cell / year",
+      "implementation": "€55,000 motion-stack integration / cell",
+      "included": "Up to 2 robots, 4 end-effectors, 2 production recipes, standard PLC / fieldbus interface and performance monitoring.",
+      "addons": [
+        "Additional robot: €35,000/year",
+        "Additional production recipe pack: €15,000/year",
+        "Custom controller integration: €30,000 setup",
+        "High-risk validation package: €45,000"
+      ],
+      "direct_cost": "€36,000 / cell / year standard recurring delivery COGS",
+      "gross_margin": "80.0% before allocated corporate R&D / G&A",
+      "delivery_time": "8–14 weeks for initial cell; 4–8 weeks for cloned cells",
+      "key_kpis": "cycle time, task success rate, recovery rate, collision / stop events, uptime, operator intervention minutes",
+      "moat": "Cross-morphology task-policy transfer, failure recovery data and a growing library of industrial motions."
+    },
+    {
+      "id": "PROD-003",
+      "sku": "ROS-FLE-09",
+      "name": "Rosenfeld Fleet Intelligence",
+      "version": "0.9",
+      "status": "Commercial / Beta",
+      "purpose": "Turns deployed machines into a connected learning fleet through telemetry, failure classification, fleet monitoring and policy-update workflows.",
+      "buyers": "Industrial operators with multiple robot cells, AMR fleets, machine OEMs and multi-site manufacturers.",
+      "deliverables": [
+        "Fleet telemetry gateway",
+        "Health and utilization dashboards",
+        "Failure taxonomy",
+        "Cross-site event correlation",
+        "Model / policy release management",
+        "Fleet-level performance reports"
+      ],
+      "standard_price": "€48,000 / site / year + €1,250 / active robot / year",
+      "implementation": "€25,000 fleet onboarding / site",
+      "included": "Up to 25 active robots in the base fee, standard telemetry, monitoring, user accounts and one fleet data connector.",
+      "addons": [
+        "Additional active robot: €1,250/year",
+        "Additional site: €36,000/year",
+        "Managed fleet analytics: €60,000/year/site",
+        "Custom connector: €18,000 setup"
+      ],
+      "direct_cost": "€14,000 / site / year base + €300 / active robot / year",
+      "gross_margin": "typically >70% at commercial fleet density",
+      "delivery_time": "4–8 weeks for first fleet; 2–4 weeks for additional sites",
+      "key_kpis": "fleet uptime, mean time to recovery, failure recurrence, utilization, intervention rate, update adoption",
+      "moat": "Closed-loop fleet data: deployment → failure → correction → validated update → redeployment."
+    },
+    {
+      "id": "PROD-004",
+      "sku": "ROS-SIM-13",
+      "name": "Rosenfeld Simulation Core",
+      "version": "1.3",
+      "status": "Pilot / limited commercial",
+      "purpose": "Physics-aware simulation, synthetic data generation, digital-twin testing and failure-replay environment for industrial autonomy.",
+      "buyers": "Industrial manufacturers, automation teams, robot OEMs, engineering groups and RAS customers preparing deployments.",
+      "deliverables": [
+        "Physics-aware scene representation",
+        "Digital-twin environment",
+        "Synthetic data generation",
+        "Failure replay",
+        "Scenario testing",
+        "Regression testing for policy updates"
+      ],
+      "standard_price": "€120,000 / site / year",
+      "implementation": "€80,000 digital-twin onboarding / project",
+      "included": "One production cell or process model, scenario library, automated regression suite and standard CI/API integration.",
+      "addons": [
+        "Additional modeled cell: €45,000/year",
+        "Custom physics / contact model: €35,000",
+        "Scenario pack: €20,000",
+        "Continuous simulation operations: €48,000/year"
+      ],
+      "direct_cost": "€22,000 / site / year recurring delivery COGS",
+      "gross_margin": "81.7% before allocated corporate R&D / G&A",
+      "delivery_time": "8–16 weeks for initial digital twin; 4–8 weeks for extensions",
+      "key_kpis": "sim-to-real transfer rate, scenario coverage, regression detection rate, test throughput, escaped failure rate",
+      "moat": "Failure-replay corpus and customer-specific operational models that become increasingly valuable with every deployment."
+    },
+    {
+      "id": "PROD-005",
+      "sku": "ROS-MAN-08",
+      "name": "Rosenfeld Manipulation Lab Stack",
+      "version": "0.8",
+      "status": "Internal / strategic partner",
+      "purpose": "Research and partner environment for contact-rich manipulation, force control, grasping, tool interaction and hard physical tasks.",
+      "buyers": "Strategic industrial partners, research collaborators and selected lighthouse customers; not general availability.",
+      "deliverables": [
+        "Contact-state representation",
+        "Force-aware policies",
+        "Tool-use primitives",
+        "Manipulation experiment framework",
+        "Failure capture and replay",
+        "Evaluation harness"
+      ],
+      "standard_price": "€250,000 / strategic partner / year",
+      "implementation": "€50,000 research environment setup",
+      "included": "4 named research users, API access, two engineering sprints per quarter and shared evaluation framework.",
+      "addons": [
+        "Additional research sprint: €35,000",
+        "On-site manipulation campaign: €60,000",
+        "Exclusive field-of-use license: individually negotiated"
+      ],
+      "direct_cost": "€85,000 / partner / year direct program cost",
+      "gross_margin": "66.0% before allocated corporate R&D / G&A",
+      "delivery_time": "10–16 weeks to establish a partner environment",
+      "key_kpis": "task success, recovery success, force overshoot, grasp stability, tool-use completion, intervention rate",
+      "moat": "Proprietary contact-rich datasets and physical correction data; intended to seed later generations of Motion and Autonomy products."
+    }
+  ],
+  "services": [
+    {
+      "id": "SRV-001",
+      "name": "Discovery & System Architecture",
+      "price": "€35,000 / project",
+      "cost": "€18,000 direct delivery cost",
+      "margin": "48.6% gross",
+      "time": "10 business days",
+      "purpose": "Process mapping, site audit, sensor/robot inventory, target KPI definition, deployment architecture and ROI baseline."
+    },
+    {
+      "id": "SRV-002",
+      "name": "Deployment & Integration",
+      "price": "€120,000 / standard cell project",
+      "cost": "€72,000 direct delivery cost, excluding customer hardware purchased on behalf of client",
+      "margin": "40.0% gross",
+      "time": "6–12 weeks",
+      "purpose": "Install software stack, connect PLC/robot/sensor interfaces, calibrate, validate production workflows and commission the system."
+    },
+    {
+      "id": "SRV-003",
+      "name": "Robotics Engineering",
+      "price": "€25,000 / 20-engineer-day block",
+      "cost": "€18,500 direct engineering delivery cost",
+      "margin": "26.0% gross",
+      "time": "Scheduled by engineering capacity",
+      "purpose": "Custom robot-cell engineering, mechanical/electrical interfaces, controls, fixtures, end-effector integration, test and recovery work."
+    },
+    {
+      "id": "SRV-004",
+      "name": "Data & Fleet Operations",
+      "price": "€85,000 / site / year",
+      "cost": "€42,000 direct delivery cost",
+      "margin": "50.6% gross",
+      "time": "12-month recurring contract",
+      "purpose": "Telemetry governance, dataset curation, fleet analytics, failure triage, model evaluation and controlled update operations."
+    },
+    {
+      "id": "SRV-005",
+      "name": "Support & Lifecycle",
+      "price": "Bronze €36,000; Silver €72,000; Gold €120,000 / site / year",
+      "cost": "Bronze €15,000; Silver €31,000; Gold €52,000 direct cost",
+      "margin": "58.3% / 56.9% / 56.7% gross",
+      "time": "12-month recurring contract",
+      "purpose": "Remote support, incident handling, software updates, health checks, SLA management and periodic performance review."
+    },
+    {
+      "id": "SRV-006",
+      "name": "OEM / IP Licensing",
+      "price": "€250,000 upfront field-of-use license + 6.0% royalty on defined licensee net sales; minimum annual royalty €100,000",
+      "cost": "€20,000 average legal / enablement cost for standard agreement",
+      "margin": "Primarily IP-margin economics; highly variable",
+      "time": "3–9 months negotiation / qualification",
+      "purpose": "License selected RAS algorithms, schemas or software components to equipment manufacturers under defined field-of-use and territory restrictions."
+    }
+  ],
+  "stream_targets": {
+    "Subscriptions / licences": 1862400,
+    "Deployment / integration": 2744600,
+    "Robotics engineering": 1214800,
+    "Data / fleet intelligence": 1018900,
+    "Licensing / royalties": 642500,
+    "Support / maintenance": 460400
+  },
+  "stream_direct_cogs": {
+    "Subscriptions / licences": 205464,
+    "Deployment / integration": 1052844,
+    "Robotics engineering": 352292,
+    "Data / fleet intelligence": 101800,
+    "Licensing / royalties": 12850,
+    "Support / maintenance": 51200
+  },
+  "contract_lines": {
+    "CL-001": {
+      "name": "ArcelorMittal Luxembourg",
+      "revenue": 1540000,
+      "mix": {
+        "Subscriptions / licences": 300000,
+        "Deployment / integration": 600000,
+        "Robotics engineering": 200000,
+        "Data / fleet intelligence": 300000,
+        "Licensing / royalties": 0,
+        "Support / maintenance": 140000
+      }
+    },
+    "CL-002": {
+      "name": "Goodyear Luxembourg",
+      "revenue": 1380000,
+      "mix": {
+        "Subscriptions / licences": 270000,
+        "Deployment / integration": 450000,
+        "Robotics engineering": 220000,
+        "Data / fleet intelligence": 320000,
+        "Licensing / royalties": 0,
+        "Support / maintenance": 120000
+      }
+    },
+    "CL-003": {
+      "name": "Husky Technologies Luxembourg",
+      "revenue": 890000,
+      "mix": {
+        "Subscriptions / licences": 180000,
+        "Deployment / integration": 300000,
+        "Robotics engineering": 180000,
+        "Data / fleet intelligence": 170000,
+        "Licensing / royalties": 0,
+        "Support / maintenance": 60000
+      }
+    },
+    "CL-004": {
+      "name": "CERATIZIT S.A.",
+      "revenue": 620000,
+      "mix": {
+        "Subscriptions / licences": 130000,
+        "Deployment / integration": 180000,
+        "Robotics engineering": 120000,
+        "Data / fleet intelligence": 140000,
+        "Licensing / royalties": 0,
+        "Support / maintenance": 50000
+      }
+    },
+    "CL-005": {
+      "name": "Cargolux",
+      "revenue": 410000,
+      "mix": {
+        "Subscriptions / licences": 90000,
+        "Deployment / integration": 120000,
+        "Robotics engineering": 60000,
+        "Data / fleet intelligence": 78900,
+        "Licensing / royalties": 0,
+        "Support / maintenance": 61100
+      }
+    },
+    "CL-006": {
+      "name": "Luxembourg industrial mid-market base",
+      "revenue": 1103600,
+      "mix": {
+        "Subscriptions / licences": 350000,
+        "Deployment / integration": 350000,
+        "Robotics engineering": 150000,
+        "Data / fleet intelligence": 10000,
+        "Licensing / royalties": 214300,
+        "Support / maintenance": 29300
+      }
+    },
+    "CL-007": {
+      "name": "Smaller platform base",
+      "revenue": 2000000,
+      "mix": {
+        "Subscriptions / licences": 542400,
+        "Deployment / integration": 744600,
+        "Robotics engineering": 284800,
+        "Data / fleet intelligence": 0,
+        "Licensing / royalties": 428200,
+        "Support / maintenance": 0
+      }
+    }
+  },
+  "canonical_financial_reconciliation": {
+    "revenue": 7943600,
+    "gross_profit": 6167150,
+    "direct_cogs": 1776450,
+    "gross_margin": 0.7763671383251927
+  },
+  "rules": {
+    "real_company_relationships": "SIM unless independently documented",
+    "hardware": "RAS integrates third-party/customer robots in 2026; no mass-market proprietary robot catalog item frozen",
+    "price_book": "List prices are canonical simulation assumptions; actual contract price can be an explicit deviation.",
+    "revenue_reconciliation": "Product/service sub-ledger must reconcile to corporate ledger before it can alter revenue."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "simulation_id": "ROSENFELD-WORLD-001",
+  "operating_architecture_version": "1.0",
+  "status": "READY_TO_PLAY",
+  "canonical_start": "2026-09-23T18:00:00+02:00",
+  "time_mode": "ADAPTIVE",
+  "narrative_mode": "INTERACTIVE_CAUSAL",
+  "truth_classes": [
+    "REAL",
+    "ANCHOR",
+    "SIM",
+    "DERIVED",
+    "PROJECTED",
+    "PENDING"
+  ],
+  "authority": [
+    "ROSENFELD_Simulation_Launch_Baseline_v1.0",
+    "Initial_State_Master_Dossier_v3_Forensic_Expansion",
+    "ROSENFELD_Product_and_Service_Catalog_v1.0"
+  ],
+  "player_controls": [
+    "Lucien decisions",
+    "requested information",
+    "time-advance granularity"
+  ],
+  "simulator_controls": [
+    "world state",
+    "other actors",
+    "market response",
+    "technology evolution",
+    "consequences",
+    "event generation",
+    "accounting updates"
+  ],
+  "turn_schema": [
+    "WORLD_TIMESTAMP",
+    "WORLD_PULSE",
+    "CURRENT_SITUATION",
+    "WHAT_HAPPENED",
+    "WHY_IT_MATTERS",
+    "CAUSAL_EFFECTS",
+    "DECISION_SPACE",
+    "LEDGER_MUTATIONS",
+    "UPDATED_STATE",
+    "NEXT_MOMENT"
+  ],
+  "time_modes": {
+    "SCENE": "minutes-hours",
+    "TACTICAL": "days-weeks",
+    "OPERATIONAL": "1-3 months",
+    "STRATEGIC": "1-4 quarters",
+    "HISTORICAL": "1-5 years",
+    "GENERATIONAL": "5-20+ years"
+  },
+  "mandatory_engines": [
+    "WORLD",
+    "TECH",
+    "COMPANY",
+    "MARKET",
+    "CAPITAL",
+    "WEALTH",
+    "PEOPLE",
+    "PHYSICAL",
+    "GEOPOLITICS",
+    "INFRASTRUCTURE",
+    "INFORMATION",
+    "CAUSALITY",
+    "AUDIT"
+  ],
+  "ids": {
+    "event": "EVENT-YYYYMMDD-###",
+    "decision": "DEC-YYYYMMDD-###",
+    "transaction": "TRX-YYYYMMDD-###",
+    "contract": "CON-YYYY-####",
+    "snapshot": "SNAP-YYYYMMDD-HHMM",
+    "audit": "AUD-YYYYMMDD-###"
+  },
+  "rules": [
+    "persistent state",
+    "no silent retcon",
+    "finite resources",
+    "information asymmetry",
+    "real-world refresh",
+    "causal consequences",
+    "accounting integrity",
+    "physical continuity"
+  ],
+  "opening_turn": "SIM-OPEN-20260923-1800"
+}

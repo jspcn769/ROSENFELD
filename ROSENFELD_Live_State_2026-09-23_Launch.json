@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "snapshot_id": "SNAP-20260923-1800",
+  "start_timestamp": "2026-09-23T18:00:00+02:00",
+  "canonical_authority": [
+    "ROSENFELD_Simulation_Launch_Baseline_v1.0",
+    "Initial_State_Master_Dossier_v3_Forensic_Expansion"
+  ],
+  "protagonist": {
+    "id": "PERSON-001",
+    "name": "Lucien Édouard de Rosenfeld",
+    "age_years": 25
+  },
+  "company": {
+    "id": "COMP-001",
+    "name": "Rosenfeld Autonomous Systems S.à r.l.",
+    "employees": 46,
+    "fd_equity_value_eur": 31200000.0,
+    "cash_eur": 5418900.0,
+    "debt_eur": 1250000.0,
+    "net_pp&e_eur": 3146700.0,
+    "inventory_eur": 1062500.0,
+    "ytd_revenue_eur": 7943600.0,
+    "revenue_run_rate_eur": 10900052.63,
+    "enterprise_value_eur": 27031100.0,
+    "net_cash_eur": 4168900.0,
+    "fd_share_price_eur": 3.12
+  },
+  "personal": {
+    "gross_assets_eur": 16634350.0,
+    "debt_eur": 284600.0,
+    "net_worth_eur": 16349750.0,
+    "ras_fd_shares": 4872000,
+    "ras_fd_ownership_pct": 48.72,
+    "ras_issued_voting_pct": 55.125594,
+    "ras_equity_mark_eur": 15200640.0,
+    "ras_share_of_net_worth_pct": 92.971697,
+    "cash_eur": 632020.0,
+    "listed_securities_eur": 381912.31,
+    "private_investments_eur": 49700.0,
+    "personal_ip_right_eur": 65000.0,
+    "refundable_deposit_eur": 10350.0
+  },
+  "brand": {
+    "primary_logo_id": "BRAND-LOGO-001",
+    "symbol_id": "BRAND-SYMBOL-001",
+    "primary_logo_file": "ROSENFELD_Official_Logo_Primary_Transparent.png",
+    "symbol_file": "ROSENFELD_Official_Symbol_Transparent.png"
+  },
+  "pending_non_blocking": [
+    "FAC-002 internal unit number / unit-level coordinates",
+    "fictional legal registry number for COMP-001",
+    "simulated patent application numbers",
+    "real bank account numbers and equipment serial numbers",
+    "public confirmation of specific RAS contracts with real companies",
+    "low-value household consumables"
+  ],
+  "protocols": [
+    "persistent IDs",
+    "no-retcon",
+    "event mutation",
+    "real-vs-sim separation",
+    "dated market marks",
+    "world refresh on time advance"
+  ]
+}

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>ROSENFELD 2030 Facility Master Project</name>
+<description>Canonical 31/12/2030 facility network. Real-world anchors are separated from simulated RAS occupancy.</description>
+<Folder><name>Active facilities</name>
+<Placemark><name>FAC-001 — Contern Legacy HQ &amp; Robotics Laboratory</name><description><![CDATA[
+<b>Status:</b> ACTIVE<br/>
+<b>Address:</b> 3 Rue de l’Étang, L-5326 Contern, Luxembourg<br/>
+<b>Truth:</b> [REAL]/[ANCHOR]+[SIM]<br/>
+<b>Area/capacity:</b> 535<br/>
+<b>Fixed FTE:</b> 28<br/>
+<b>Annual burden:</b> 550000<br/>
+<b>Coordinate confidence:</b> ADDRESS-LEVEL / coordinate not independently geocoded<br/>
+<b>Google Earth search:</b> 3 Rue de l’Étang, L-5326 Contern, Luxembourg<br/>
+<b>Layer:</b> 01_ACTIVE
+]]></description><address>3 Rue de l’Étang, L-5326 Contern, Luxembourg</address></Placemark>
+<Placemark><name>FAC-003 — LuxConnect DC1.1 Secure Compute / Colocation</name><description><![CDATA[
+<b>Status:</b> ACTIVE / EXPANDED<br/>
+<b>Address:</b> 202, Z.A.E. Wolser F, L-3290 Bettembourg, Luxembourg<br/>
+<b>Truth:</b> [REAL]/[ANCHOR]+[SIM]<br/>
+<b>Area/capacity:</b> 20 racks / RAS contracted IT load ~90 kW base, ~100 kW peak<br/>
+<b>Fixed FTE:</b> 0<br/>
+<b>Annual burden:</b> 2200000<br/>
+<b>Coordinate confidence:</b> COORDINATE VERIFIED via PeeringDB / address via LuxConnect<br/>
+<b>Google Earth search:</b> 202, Z.A.E. Wolser F, L-3290 Bettembourg, Luxembourg<br/>
+<b>Layer:</b> 01_ACTIVE
+]]></description><Point><coordinates>6.113522,49.504919,0</coordinates></Point></Placemark>
+<Placemark><name>FAC-004 — Campus Contern Integration &amp; Calibration Campus</name><description><![CDATA[
+<b>Status:</b> ACTIVE<br/>
+<b>Address:</b> 19 Rue Edmond Reuter, L-5326 Contern, Luxembourg<br/>
+<b>Truth:</b> [REAL]/[ANCHOR]+[SIM]<br/>
+<b>Area/capacity:</b> 3526<br/>
+<b>Fixed FTE:</b> 92<br/>
+<b>Annual burden:</b> 1950000<br/>
+<b>Coordinate confidence:</b> CAMPUS coordinate anchor; exact internal units are [SIM]<br/>
+<b>Google Earth search:</b> 19 Rue Edmond Reuter, L-5326 Contern, Luxembourg<br/>
+<b>Layer:</b> 01_ACTIVE
+]]></description><Point><coordinates>6.2247592,49.5933567,0</coordinates></Point></Placemark>
+<Placemark><name>FAC-005 — ROSENFELD Luxembourg Physical Validation &amp; Logistics Campus</name><description><![CDATA[
+<b>Status:</b> ACTIVE<br/>
+<b>Address:</b> 120 Z.A.E. Wolser F, L-3290 Bettembourg, Luxembourg<br/>
+<b>Truth:</b> [REAL]/[ANCHOR]+[SIM]<br/>
+<b>Area/capacity:</b> 6200<br/>
+<b>Fixed FTE:</b> 32<br/>
+<b>Annual burden:</b> 1850000<br/>
+<b>Coordinate confidence:</b> ZAE Wolser F corridor coordinate; building-level coordinate is [SIM/PENDING]<br/>
+<b>Google Earth search:</b> 120 Z.A.E. Wolser F, L-3290 Bettembourg, Luxembourg<br/>
+<b>Layer:</b> 01_ACTIVE
+]]></description><Point><coordinates>6.1110167,49.5081333,0</coordinates></Point></Placemark>
+<Placemark><name>FAC-006 — Munich DACH Systems Engineering &amp; Enterprise Center</name><description><![CDATA[
+<b>Status:</b> ACTIVE<br/>
+<b>Address:</b> Rosenheimer Straße 145, 81671 München, Germany<br/>
+<b>Truth:</b> [REAL]/[ANCHOR]+[SIM]<br/>
+<b>Area/capacity:</b> 1300<br/>
+<b>Fixed FTE:</b> 55<br/>
+<b>Annual burden:</b> 1350000<br/>
+<b>Coordinate confidence:</b> Building/address coordinate anchor<br/>
+<b>Google Earth search:</b> Rosenheimer Straße 145, 81671 München, Germany<br/>
+<b>Layer:</b> 01_ACTIVE
+]]></description><Point><coordinates>11.606672,48.122452,0</coordinates></Point></Placemark>
+<Placemark><name>FAC-007 — Eindhoven Precision Automation &amp; Semiconductor Integration Hub</name><description><![CDATA[
+<b>Status:</b> ACTIVE<br/>
+<b>Address:</b> BIC 1, 5657 BX Eindhoven, Netherlands; internal RAS unit D09.1 [SIM]<br/>
+<b>Truth:</b> [REAL]/[ANCHOR]+[SIM]<br/>
+<b>Area/capacity:</b> 700<br/>
+<b>Fixed FTE:</b> 29<br/>
+<b>Annual burden:</b> 780000<br/>
+<b>Coordinate confidence:</b> BIC address coordinate anchor; internal unit is [SIM]<br/>
+<b>Google Earth search:</b> BIC 1, 5657 BX Eindhoven, Netherlands; internal RAS unit D09.1 [SIM]<br/>
+<b>Layer:</b> 01_ACTIVE
+]]></description><Point><coordinates>5.4024364,51.4618386,0</coordinates></Point></Placemark>
+<Placemark><name>FAC-008 — Pittsburgh Advanced Robotics &amp; Manipulation Laboratory</name><description><![CDATA[
+<b>Status:</b> ACTIVE<br/>
+<b>Address:</b> Mill 19, Building A, 4501 Lytle Street, Pittsburgh, PA 15207, USA; internal P-19-A-RAS [SIM]<br/>
+<b>Truth:</b> [REAL]/[ANCHOR]+[SIM]<br/>
+<b>Area/capacity:</b> 900<br/>
+<b>Fixed FTE:</b> 42<br/>
+<b>Annual burden:</b> 950000<br/>
+<b>Coordinate confidence:</b> Building coordinate anchor<br/>
+<b>Google Earth search:</b> Mill 19, Building A, 4501 Lytle Street, Pittsburgh, PA 15207, USA; internal P-19-A-RAS [SIM]<br/>
+<b>Layer:</b> 01_ACTIVE
+]]></description><Point><coordinates>-79.94851,40.41598,0</coordinates></Point></Placemark>
+<Placemark><name>FAC-009 — Detroit Automotive &amp; Industrial Deployment Center</name><description><![CDATA[
+<b>Status:</b> ACTIVE<br/>
+<b>Address:</b> Michigan Central, 1907 Michigan Avenue, Detroit, MI 48216, USA; internal MC-RAS-02 [SIM]<br/>
+<b>Truth:</b> [REAL]/[ANCHOR]+[SIM]<br/>
+<b>Area/capacity:</b> 1200<br/>
+<b>Fixed FTE:</b> 37<br/>
+<b>Annual burden:</b> 1050000<br/>
+<b>Coordinate confidence:</b> Address-level / map-derived coordinate; exact internal suite [SIM]<br/>
+<b>Google Earth search:</b> Michigan Central, 1907 Michigan Avenue, Detroit, MI 48216, USA; internal MC-RAS-02 [SIM]<br/>
+<b>Layer:</b> 01_ACTIVE
+]]></description><Point><coordinates>-83.073,42.33099,0</coordinates></Point></Placemark>
+<Placemark><name>FAC-010 — Tokyo APAC Strategic Accounts &amp; Customer Engineering Office</name><description><![CDATA[
+<b>Status:</b> ACTIVE<br/>
+<b>Address:</b> Otemachi One, 1-2-1 Otemachi, Chiyoda-ku, Tokyo 100-0004, Japan; internal O1-RAS [SIM]<br/>
+<b>Truth:</b> [REAL]/[ANCHOR]+[SIM]<br/>
+<b>Area/capacity:</b> 500<br/>
+<b>Fixed FTE:</b> 14<br/>
+<b>Annual burden:</b> 620000<br/>
+<b>Coordinate confidence:</b> Building coordinate anchor<br/>
+<b>Google Earth search:</b> Otemachi One, 1-2-1 Otemachi, Chiyoda-ku, Tokyo 100-0004, Japan; internal O1-RAS [SIM]<br/>
+<b>Layer:</b> 01_ACTIVE
+]]></description><Point><coordinates>139.763205,35.687563,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Historical/closed</name>
+<Placemark><name>FAC-002 — Niederanven / Bombicht Micro-Storage (CLOSED)</name><description><![CDATA[
+<b>Status:</b> CLOSED in 2028<br/>
+<b>Address:</b> 3, Zone Industrielle Bombicht, L-6947 Niederanven, Luxembourg<br/>
+<b>Truth:</b> [REAL]/[ANCHOR]+[SIM]<br/>
+<b>Area/capacity:</b> 15<br/>
+<b>Fixed FTE:</b> 0<br/>
+<b>Annual burden:</b> 0<br/>
+<b>Coordinate confidence:</b> ADDRESS-LEVEL / coordinate not independently geocoded<br/>
+<b>Google Earth search:</b> 3, Zone Industrielle Bombicht, L-6947 Niederanven, Luxembourg<br/>
+<b>Layer:</b> 02_HISTORICAL
+]]></description><address>3, Zone Industrielle Bombicht, L-6947 Niederanven, Luxembourg</address></Placemark>
+</Folder>
+<Folder><name>Planned future</name>
+<Placemark><name>FAC-P11 — Luxembourg Campus Phase II – High-Bay &amp; Logistics Expansion</name><description><![CDATA[
+<b>Status:</b> Pre-development / not committed<br/>
+<b>Address:</b> PARCEL PENDING — do not invent street number before lease/permit<br/>
+<b>Truth:</b> [PROJECTED]/[PENDING]<br/>
+<b>Area/capacity:</b> 4,000–4,800 m² building + 3,000 m² covered yard<br/>
+<b>Fixed FTE:</b> <br/>
+<b>Annual burden:</b> <br/>
+<b>Coordinate confidence:</b> PENDING<br/>
+<b>Google Earth search:</b> Adjacent industrial parcel within the Z.A.E. Wolser F / Bettembourg corridor, Luxembourg<br/>
+<b>Layer:</b> 03_PLANNED
+]]></description><address>Adjacent industrial parcel within the Z.A.E. Wolser F / Bettembourg corridor, Luxembourg</address></Placemark>
+<Placemark><name>FAC-P12 — Aachen Physical Systems &amp; Actuation Centre</name><description><![CDATA[
+<b>Status:</b> Location shortlisted / lease not executed<br/>
+<b>Address:</b> Campus-Boulevard 30, 52074 Aachen [REAL anchor; internal RAS suite PENDING]<br/>
+<b>Truth:</b> [PROJECTED]/[PENDING]<br/>
+<b>Area/capacity:</b> ~2,200 m²<br/>
+<b>Fixed FTE:</b> <br/>
+<b>Annual burden:</b> <br/>
+<b>Coordinate confidence:</b> PENDING<br/>
+<b>Google Earth search:</b> RWTH Campus-Melaten / Campus-Boulevard 30, 52074 Aachen, Germany<br/>
+<b>Layer:</b> 03_PLANNED
+]]></description><address>RWTH Campus-Melaten / Campus-Boulevard 30, 52074 Aachen, Germany</address></Placemark>
+<Placemark><name>FAC-P13 — Singapore APAC Engineering Hub</name><description><![CDATA[
+<b>Status:</b> Location shortlisted / not committed<br/>
+<b>Address:</b> 1–3 Fusionopolis Way, Singapore [REAL building anchor; exact suite PENDING]<br/>
+<b>Truth:</b> [PROJECTED]/[PENDING]<br/>
+<b>Area/capacity:</b> 450–550 m²<br/>
+<b>Fixed FTE:</b> <br/>
+<b>Annual burden:</b> <br/>
+<b>Coordinate confidence:</b> PENDING<br/>
+<b>Google Earth search:</b> Fusionopolis One, 1–3 Fusionopolis Way, Singapore<br/>
+<b>Layer:</b> 03_PLANNED
+]]></description><address>Fusionopolis One, 1–3 Fusionopolis Way, Singapore</address></Placemark>
+<Placemark><name>INF-P14 — European Secondary Compute Region</name><description><![CDATA[
+<b>Status:</b> Architecture approved / provider selection pending<br/>
+<b>Address:</b> PENDING — no false exact address<br/>
+<b>Truth:</b> [PROJECTED]/[PENDING]<br/>
+<b>Area/capacity:</b> 8–12 racks / 40–60 kW initial IT load<br/>
+<b>Fixed FTE:</b> <br/>
+<b>Annual burden:</b> <br/>
+<b>Coordinate confidence:</b> PENDING<br/>
+<b>Google Earth search:</b> Frankfurt / Paris / Amsterdam colocation market — provider not selected<br/>
+<b>Layer:</b> 03_PLANNED
+]]></description><address>Frankfurt / Paris / Amsterdam colocation market — provider not selected</address></Placemark>
+<Placemark><name>INF-P15 — North American Industrial Field Depot</name><description><![CDATA[
+<b>Status:</b> Site search / not committed<br/>
+<b>Address:</b> PENDING — 3PL / light-industrial site search<br/>
+<b>Truth:</b> [PROJECTED]/[PENDING]<br/>
+<b>Area/capacity:</b> 2,000–3,000 m²<br/>
+<b>Fixed FTE:</b> <br/>
+<b>Annual burden:</b> <br/>
+<b>Coordinate confidence:</b> PENDING<br/>
+<b>Google Earth search:</b> Detroit–Ohio–Indiana logistics corridor<br/>
+<b>Layer:</b> 03_PLANNED
+]]></description><address>Detroit–Ohio–Indiana logistics corridor</address></Placemark>
+</Folder>
+<Folder><name>Candidate infrastructure</name>
+</Folder>
+</Document></kml>

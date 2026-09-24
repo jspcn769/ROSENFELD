@@ -1,0 +1,840 @@
+{
+  "snapshot": "SNAP-20301231-2359",
+  "truth_boundary": "2026-09-24",
+  "company": {
+    "legal_name": "Rosenfeld Autonomous Systems S.A.",
+    "company_id": "COMP-001",
+    "equity_mark_eur": 1148000000,
+    "share_price_eur": 82.0,
+    "fd_shares": 14000000,
+    "revenue_2030_eur": 186000000,
+    "ebitda_2030_eur": 28500000,
+    "cash_eur": 79000000,
+    "debt_eur": 15000000,
+    "employees": 420,
+    "managed_robot_cells": 2150,
+    "countries": 15,
+    "industrial_sites": 86,
+    "facilities": [
+      [
+        "FAC-001",
+        "Contern HQ / legacy robotics lab",
+        "3 Rue de l’Étang, L-5326 Contern, Luxembourg",
+        "535 m²",
+        "Leased",
+        "Core engineering, legacy lab, finance/legal",
+        "2026",
+        "[ANCHOR + SIM]"
+      ],
+      [
+        "FAC-004",
+        "Contern Integration & Calibration Campus",
+        "19 Rue Edmond Reuter, L-5326 Contern, Luxembourg",
+        "3,526 m²",
+        "Leased",
+        "Integration cells, calibration, customer FAT/SAT, inventory",
+        "2027",
+        "[REAL address + SIM lease]"
+      ],
+      [
+        "FAC-005",
+        "Bettembourg Physical Validation Annex",
+        "120 Z.A.E. Wolser F, L-3290 Bettembourg, Luxembourg",
+        "2,050 m²",
+        "Leased",
+        "Heavy test, force-control, spare parts, field-service staging",
+        "2029",
+        "[REAL address + SIM lease]"
+      ],
+      [
+        "FAC-003",
+        "LuxConnect DC1.1 colocation",
+        "202 Z.A.E. Wolser F, L-3290 Bettembourg, Luxembourg",
+        "20 racks / ~5 MW contracted ceiling",
+        "Colocation",
+        "Training bursts, storage, fleet telemetry, secure compute",
+        "2027–2030",
+        "[REAL facility + SIM capacity]"
+      ],
+      [
+        "FAC-007",
+        "Munich office / systems engineering",
+        "Rosenheimer Straße 145, 81671 München, Germany",
+        "1,020 m²",
+        "Leased",
+        "DACH engineering, enterprise sales, low-noise prototyping",
+        "2027",
+        "[REAL site + SIM lease]"
+      ],
+      [
+        "FAC-008",
+        "Eindhoven precision automation hub",
+        "BIC 1, 5657 BX Eindhoven, Netherlands; internal D09.1",
+        "700 m²",
+        "Leased",
+        "Semiconductor / precision automation / sensors",
+        "2028",
+        "[REAL campus + SIM unit]"
+      ],
+      [
+        "FAC-009",
+        "Pittsburgh advanced robotics lab",
+        "Mill 19, Building A, 4501 Lytle Street, Pittsburgh, PA 15207, USA; internal P-19-A-RAS",
+        "900 m²",
+        "Leased",
+        "Manipulation, controls, US advanced robotics R&D",
+        "2028",
+        "[REAL building + SIM internal unit]"
+      ],
+      [
+        "FAC-010",
+        "Detroit automotive deployment centre",
+        "Michigan Central, 1907 Michigan Ave, Detroit, MI 48216, USA; internal MC-RAS-02",
+        "1,200 m²",
+        "Leased",
+        "Automotive / logistics / field deployment",
+        "2028",
+        "[REAL campus + SIM internal unit]"
+      ],
+      [
+        "FAC-011",
+        "Tokyo APAC office",
+        "Otemachi One, 1-2-1 Otemachi, Chiyoda-ku, Tokyo 100-0004, Japan; internal O1-RAS-17F",
+        "250 m²",
+        "Leased",
+        "APAC sales, strategic accounts, customer engineering",
+        "2029",
+        "[REAL building + SIM floor/unit]"
+      ]
+    ],
+    "customers": [
+      [
+        "ArcelorMittal Luxembourg",
+        "Luxembourg",
+        "Steel / heavy industry",
+        "€18.6M",
+        "9.99%",
+        "Perception, fleet, predictive maintenance",
+        "Multi-site framework; [SIM contract]"
+      ],
+      [
+        "Goodyear Luxembourg",
+        "Luxembourg",
+        "Tire manufacturing",
+        "€14.2M",
+        "7.63%",
+        "Vision, quality, motion, fleet",
+        "Multi-line industrial deployment; [SIM]"
+      ],
+      [
+        "Husky Technologies",
+        "Luxembourg / Canada",
+        "Plastics machinery",
+        "€9.4M",
+        "5.05%",
+        "Inspection, robot handling, data",
+        "Global reference account; [SIM]"
+      ],
+      [
+        "CERATIZIT",
+        "Luxembourg / Austria",
+        "Advanced materials / tooling",
+        "€7.8M",
+        "4.19%",
+        "Inspection, handling, quality",
+        "Multi-site; [SIM]"
+      ],
+      [
+        "Cargolux",
+        "Luxembourg",
+        "Air cargo",
+        "€5.9M",
+        "3.17%",
+        "Cargo handling intelligence",
+        "Airport/warehouse deployments; [SIM]"
+      ],
+      [
+        "BMW Group",
+        "Germany",
+        "Automotive",
+        "€8.7M",
+        "4.68%",
+        "Production autonomy, quality, fleet",
+        "Strategic framework; [SIM]"
+      ],
+      [
+        "Siemens",
+        "Germany",
+        "Industrial automation",
+        "€8.1M",
+        "4.35%",
+        "Assurance, motion, digital twin",
+        "Industrial platform partnership; [SIM]"
+      ],
+      [
+        "Bosch",
+        "Germany",
+        "Industrial / mobility",
+        "€7.5M",
+        "4.03%",
+        "Inspection, force control, fleet",
+        "Strategic integration; [SIM]"
+      ],
+      [
+        "Schaeffler",
+        "Germany",
+        "Industrial / automotive",
+        "€6.8M",
+        "3.66%",
+        "Manipulation / quality / fleet",
+        "Multi-site; [SIM]"
+      ],
+      [
+        "ZF",
+        "Germany",
+        "Automotive / mobility",
+        "€5.9M",
+        "3.17%",
+        "Assembly support / vision",
+        "Pilot-to-rollout; [SIM]"
+      ],
+      [
+        "ASML",
+        "Netherlands",
+        "Semiconductor equipment",
+        "€6.6M",
+        "3.55%",
+        "Precision inspection / process support",
+        "High-assurance deployment; [SIM]"
+      ],
+      [
+        "DHL Supply Chain",
+        "Global",
+        "Logistics",
+        "€6.2M",
+        "3.33%",
+        "Warehouse autonomy / fleet",
+        "Regional rollouts; [SIM]"
+      ],
+      [
+        "Airbus",
+        "EU",
+        "Aerospace",
+        "€5.6M",
+        "3.01%",
+        "Inspection / manufacturing support",
+        "Aerospace deployment; [SIM]"
+      ],
+      [
+        "Safran",
+        "France",
+        "Aerospace",
+        "€4.9M",
+        "2.63%",
+        "Quality / manipulation",
+        "Industrial sites; [SIM]"
+      ],
+      [
+        "Schneider Electric",
+        "France",
+        "Energy / automation",
+        "€4.7M",
+        "2.53%",
+        "Edge AI / factory orchestration",
+        "Industrial platform; [SIM]"
+      ],
+      [
+        "ABB",
+        "Switzerland / Sweden",
+        "Automation / robotics",
+        "€4.3M",
+        "2.31%",
+        "Partner-stack integration",
+        "OEM/channel relationship; [SIM]"
+      ],
+      [
+        "KION Group",
+        "Germany",
+        "Intralogistics",
+        "€4.1M",
+        "2.20%",
+        "Fleet / warehouse autonomy",
+        "Strategic account; [SIM]"
+      ],
+      [
+        "Volvo Group",
+        "Sweden",
+        "Industrial / transport",
+        "€3.8M",
+        "2.04%",
+        "Industrial robotics / inspection",
+        "Strategic account; [SIM]"
+      ],
+      [
+        "Major semiconductor customer cluster",
+        "EU/US/Asia",
+        "Semiconductor",
+        "€17.0M",
+        "9.14%",
+        "Precision automation / assurance",
+        "Aggregate across 6 clients; [SIM]"
+      ],
+      [
+        "Long-tail industrial base (23 accounts)",
+        "EU/US/Asia",
+        "Mixed industrial",
+        "€35.9M",
+        "19.30%",
+        "All platform products",
+        "Aggregated; [SIM]"
+      ]
+    ],
+    "products": [
+      [
+        "PROD-001",
+        "Rosenfeld Perception Engine",
+        "v4.2",
+        "1,280 active cells",
+        "€25.6M ARR",
+        "~77% gross margin",
+        "Industrial sensor fusion, inspection, anomaly detection"
+      ],
+      [
+        "PROD-002",
+        "Rosenfeld Motion Stack",
+        "v3.1",
+        "970 active cells",
+        "€19.8M ARR",
+        "~73% gross margin",
+        "Planning, learned control, recovery-safe execution"
+      ],
+      [
+        "PROD-003",
+        "Rosenfeld Fleet Intelligence",
+        "v4.0",
+        "2,150 managed robots",
+        "€11.7M ARR",
+        "~81% gross margin",
+        "Telemetry, monitoring, fleet learning"
+      ],
+      [
+        "PROD-004",
+        "Rosenfeld Simulation Core",
+        "v5.0",
+        "220 sites",
+        "€4.5M ARR",
+        "~82% gross margin",
+        "Digital twins, replay, contact-rich simulation"
+      ],
+      [
+        "PROD-005",
+        "Rosenfeld Assurance Layer",
+        "v3.0",
+        "190 regulated/high-risk sites",
+        "€6.2M ARR",
+        "~79% gross margin",
+        "Evidence, testing, model lineage, auditability"
+      ],
+      [
+        "PROD-006",
+        "Rosenfeld Physical Systems",
+        "v2.1",
+        "420 cells",
+        "€3.1M ARR",
+        "~42% gross margin",
+        "Force-control hardware kits, calibration, end-effectors"
+      ],
+      [
+        "SERV-001",
+        "Managed support & data operations",
+        "2030 commercial edition",
+        "1,020 customer sites",
+        "€2.1M ARR",
+        "~62% gross margin",
+        "Premium operations, site analytics, data services"
+      ]
+    ]
+  },
+  "cap_table": [
+    {
+      "holder": "Lucien Édouard de Rosenfeld",
+      "class": "Class F founder",
+      "shares": 4472000,
+      "economic_pct": 31.942857,
+      "voting_pct": 67.2213
+    },
+    {
+      "holder": "Northbridge Ventures S.C.A.",
+      "class": "Series A/B preferred",
+      "shares": 1250000,
+      "economic_pct": 8.928571,
+      "voting_pct": 8.9286
+    },
+    {
+      "holder": "EQT Ventures",
+      "class": "Series B/C preferred",
+      "shares": 1100000,
+      "economic_pct": 7.857143,
+      "voting_pct": 7.8571
+    },
+    {
+      "holder": "General Catalyst",
+      "class": "Series B/C preferred",
+      "shares": 1000000,
+      "economic_pct": 7.142857,
+      "voting_pct": 7.1429
+    },
+    {
+      "holder": "Atomico",
+      "class": "Series C preferred",
+      "shares": 750000,
+      "economic_pct": 5.357143,
+      "voting_pct": 5.3571
+    },
+    {
+      "holder": "Bosch Ventures / RBVC",
+      "class": "Strategic preferred",
+      "shares": 600000,
+      "economic_pct": 4.285714,
+      "voting_pct": 4.2857
+    },
+    {
+      "holder": "BMW i Ventures",
+      "class": "Strategic preferred",
+      "shares": 450000,
+      "economic_pct": 3.214286,
+      "voting_pct": 3.2143
+    },
+    {
+      "holder": "Toyota Ventures",
+      "class": "Strategic preferred",
+      "shares": 300000,
+      "economic_pct": 2.142857,
+      "voting_pct": 2.1429
+    },
+    {
+      "holder": "Porsche Ventures",
+      "class": "Strategic preferred",
+      "shares": 250000,
+      "economic_pct": 1.785714,
+      "voting_pct": 1.7857
+    },
+    {
+      "holder": "Lakestar",
+      "class": "Series C preferred",
+      "shares": 400000,
+      "economic_pct": 2.857143,
+      "voting_pct": 2.8571
+    },
+    {
+      "holder": "Siemens Next47",
+      "class": "Strategic preferred",
+      "shares": 300000,
+      "economic_pct": 2.142857,
+      "voting_pct": 2.1429
+    },
+    {
+      "holder": "ABB Ventures",
+      "class": "Strategic preferred",
+      "shares": 250000,
+      "economic_pct": 1.785714,
+      "voting_pct": 1.7857
+    },
+    {
+      "holder": "Luxembourg Future Fund vehicle",
+      "class": "Institutional preferred",
+      "shares": 250000,
+      "economic_pct": 1.785714,
+      "voting_pct": 1.7857
+    },
+    {
+      "holder": "Bessemer Venture Partners",
+      "class": "Series C preferred",
+      "shares": 250000,
+      "economic_pct": 1.785714,
+      "voting_pct": 1.7857
+    },
+    {
+      "holder": "TCV",
+      "class": "Growth preferred",
+      "shares": 200000,
+      "economic_pct": 1.428571,
+      "voting_pct": 1.4286
+    },
+    {
+      "holder": "Kernwerk seller SPV",
+      "class": "Acquisition consideration shares",
+      "shares": 323000,
+      "economic_pct": 2.307143,
+      "voting_pct": 2.3071
+    },
+    {
+      "holder": "European Growth Partners S.à r.l.",
+      "class": "Late growth preferred",
+      "shares": 250000,
+      "economic_pct": 1.785714,
+      "voting_pct": 1.7857
+    },
+    {
+      "holder": "Luxembourg Industrial Angel Syndicate",
+      "class": "Legacy / secondary rollover",
+      "shares": 799613,
+      "economic_pct": 5.711521,
+      "voting_pct": 5.7115
+    },
+    {
+      "holder": "Employee option pool",
+      "class": "Reserved options; unissued",
+      "shares": 805387,
+      "economic_pct": 5.752764,
+      "voting_pct": 0.0
+    }
+  ],
+  "lucien": {
+    "person_id": "PERSON-001",
+    "age": 29,
+    "net_worth_eur": 399224000,
+    "ras_shares": 4472000,
+    "ras_economic_pct": 31.942857,
+    "ras_voting_pct": 67.2213,
+    "gross_assets_eur": 413574000,
+    "liabilities_eur": 14350000,
+    "cash_ex_ras_eur": 22500000,
+    "listed_securities_eur": 18200000,
+    "private_investments_eur": 6500000,
+    "real_estate_eur": 11100000,
+    "aircraft_eur": 18000000,
+    "vehicles_eur": 470000,
+    "watches_eur": 550000,
+    "jewellery_eur": 250000,
+    "art_eur": 1200000,
+    "other_goods_eur": 400000,
+    "founder_ip_eur": 500000,
+    "properties": [
+      [
+        "PERS-RE-001",
+        "Historical Luxembourg rental",
+        "19 Rue Henri VII, L-1725 Luxembourg-Limpertsberg, Luxembourg",
+        "Lease 2026–2028; exited before endpoint",
+        "87 m² + ~40 m² terrace; 2 bed / 2 bath; parking; cellar",
+        "2026 anchor rent €3,450 + €200 parking + €325 charges",
+        "€0 owned value at endpoint",
+        "[REAL listing / ANCHOR]"
+      ],
+      [
+        "PERS-RE-002",
+        "Luxembourg primary residence",
+        "114 Rue des Muguets, Luxembourg-Weimershof, Luxembourg",
+        "Purchased 2028 [SIM]",
+        "~114 m²; 3 bed; 2 bath; balcony/terrace; garage",
+        "€1.58M acquisition incl. fit-out and transaction costs",
+        "€2.05M 2030 mark",
+        "[REAL address / SIM transaction]"
+      ],
+      [
+        "PERS-RE-003",
+        "Zurich base",
+        "Brandschenkestrasse 72, 8002 Zürich, Switzerland",
+        "Purchased 2028 [SIM]",
+        "~130 m² garden apartment; 3.5 rooms; private outdoor area",
+        "CHF 5.25M acquisition + CHF 0.38M fit-out",
+        "€6.93M EUR-equivalent 2030 mark",
+        "[REAL listing address / SIM transaction]"
+      ],
+      [
+        "PERS-RE-004",
+        "Verbier base",
+        "Route des Creux 59, 1936 Verbier, Switzerland",
+        "Purchased 2029 [SIM]",
+        "~64 m²; 2.5 rooms; balcony; indoor parking; cellar; ski room",
+        "CHF 1.92M acquisition + CHF 0.12M closing/fit-out",
+        "€2.12M EUR-equivalent 2030 mark",
+        "[REAL listing / SIM transaction]"
+      ]
+    ],
+    "vehicles": [
+      [
+        "VEH-P-001",
+        "Porsche 911 Turbo S",
+        "2029",
+        "€280k acquisition",
+        "€210k",
+        "Personal / Luxembourg"
+      ],
+      [
+        "VEH-P-002",
+        "Range Rover SV LWB",
+        "2028",
+        "€210k",
+        "€195k",
+        "Primary residence / family / winter"
+      ],
+      [
+        "VEH-P-003",
+        "BMW i7 xDrive60",
+        "2027",
+        "€145k",
+        "€65k",
+        "Urban / driver use"
+      ]
+    ]
+  },
+  "people": [
+    [
+      "PERSON-001",
+      "Lucien Édouard de Rosenfeld",
+      "CEO / Chairman",
+      "Luxembourg",
+      "29",
+      "Founder; 31.94% economic / 67.22% voting",
+      "Strategic direction, capital allocation, key accounts"
+    ],
+    [
+      "PERSON-002",
+      "Marius Keller",
+      "CTO",
+      "Luxembourg",
+      "30",
+      "0.686% FD option exposure",
+      "Physical Intelligence, model architecture, research strategy"
+    ],
+    [
+      "PERSON-003",
+      "Élodie Schmit",
+      "COO",
+      "Luxembourg",
+      "39",
+      "0.393% option exposure",
+      "Operations, deployment capacity, industrialization"
+    ],
+    [
+      "PERSON-004",
+      "Thomas Weber",
+      "CFO",
+      "Germany/Luxembourg",
+      "44",
+      "0.343% option exposure",
+      "Capital, treasury, M&A, finance control"
+    ],
+    [
+      "PERSON-005",
+      "Marta Bellini",
+      "CCO",
+      "Italy/Switzerland",
+      "41",
+      "0.300% option exposure",
+      "Enterprise sales, pricing, channels"
+    ],
+    [
+      "PERSON-006",
+      "Nicolas Hoffmann",
+      "President, Physical Systems",
+      "France/Germany",
+      "37",
+      "0.257% option exposure",
+      "Force control, calibration, interfaces, Kernwerk"
+    ],
+    [
+      "PERSON-007",
+      "Dr Léa Meyer",
+      "VP Controls & Autonomy",
+      "France/Luxembourg",
+      "36",
+      "0.200% option exposure",
+      "Safety-critical controls, validation"
+    ],
+    [
+      "PERSON-008",
+      "Jonas Reuter",
+      "VP AI Infrastructure",
+      "Germany",
+      "38",
+      "0.171% option exposure",
+      "Training/inference economics, distributed systems"
+    ],
+    [
+      "PERSON-009",
+      "Camille Arendt",
+      "VP Perception",
+      "Luxembourg",
+      "34",
+      "0.150% option exposure",
+      "Computer vision, sensor fusion"
+    ],
+    [
+      "PERSON-010",
+      "Amélie Wagner",
+      "General Counsel & Chief Regulatory Officer",
+      "Luxembourg",
+      "40",
+      "0.114% option exposure",
+      "AI Act, product liability, data rights"
+    ],
+    [
+      "PERSON-011",
+      "Ruben Klein",
+      "VP Procurement & Supply Chain",
+      "Germany",
+      "39",
+      "0.086% option exposure",
+      "Dual sourcing, components, supplier risk"
+    ],
+    [
+      "PERSON-012",
+      "Helena Voss",
+      "Northbridge board nominee",
+      "Germany/Switzerland",
+      "55",
+      "Non-management; investor representative",
+      "Board governance / capital markets [SIM]"
+    ],
+    [
+      "PERSON-013",
+      "Dr Hongquan Jiang",
+      "Bosch Ventures liaison",
+      "Germany",
+      "Future outcome simulated",
+      "Investor strategic interface",
+      "Automation / sensors / industrial partnership [REAL current profile + future [SIM]]"
+    ],
+    [
+      "PERSON-014",
+      "APAC President (fictional) Kenji Mori",
+      "President Japan/APAC",
+      "Japan",
+      "46",
+      "Management",
+      "APAC expansion, customer success [SIM]"
+    ],
+    [
+      "PERSON-015",
+      "US President (fictional) Sarah Whitaker",
+      "President Americas",
+      "USA",
+      "48",
+      "Management",
+      "US commercial + deployment [SIM]"
+    ]
+  ],
+  "sources": [
+    [
+      "19 Rue Henri VII, Luxembourg listing",
+      "https://www.athome.lu/location/appartement/luxembourg/id-9184551.html",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "3 Rue de l’Étang, Contern address anchor",
+      "https://www.waze.com/live-map/directions/luxembourg/luxembourg-district/contern/3-rue-de-letang",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "19 Rue Edmond Reuter warehouse listing",
+      "https://www.depotinfo.lu/entreprises/agences/real-corp",
+      "[REAL address / current listing]"
+    ],
+    [
+      "120 Z.A.E. Wolser F address",
+      "https://map.geoportail.lu/addresses/Bettembourg/Z.A.E.%20WOLSER%20F/120/?lang=fr",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "LuxConnect DC1.1",
+      "https://www.luxconnect.lu/data-center/dc-11",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "Munich LOVT Munich",
+      "https://stadt.muenchen.de/lhm-ms-wirtschaftsfoerderung/standort-muenchen/gewerbeflaechen-immobilien/gewerbeflaechen-angebote/buero-gewerbestandorte-LOVT.html",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "Brainport Industries Campus address",
+      "https://www.brainportindustriescampus.com/contact/",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "Mill 19 Pittsburgh",
+      "https://engineering.cmu.edu/mfi/mill19/visit-us.html",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "Michigan Central Detroit",
+      "https://corporate.ford.com/operations/locations/michigan-central/",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "Otemachi One Tokyo",
+      "https://otemachi-one.com/en/access/",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "Zurich Enge Brandschenkestrasse 72 listing",
+      "https://www.homegate.ch/kaufen/wohnung/quartier-enge/trefferliste?expired=4002544907",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "Verbier Route des Creux 59 listing",
+      "https://www.spg.ch/vente/appt-appartement/valais/charmant-appartement-de-2-5-pieces-central-et-renove/",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "Luxembourg Airport",
+      "https://transports.public.lu/en/transporter/transports-aeriens/infrastructures.html",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "EQT Ventures III portfolio",
+      "https://eqtgroup.com/en/about/current-portfolio/funds/eqt-ventures-iii",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "Toyota Ventures portfolio",
+      "https://toyota.ventures/portfolio.html",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "BMW i Ventures Physical AI focus",
+      "https://www.bmwiventures.com/news/bmw-i-ventures-closes-300m-fund-iii-to-back-ai-across-the-automotive-ecosystem",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "Bosch Ventures portfolio/news",
+      "https://bosch.ventures/news/",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "Porsche Ventures portfolio",
+      "https://porsche.ventures/portfolio",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "Lakestar resilience portfolio",
+      "https://www.lakestar.com/resiliencepress",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "General Catalyst portfolio",
+      "https://www.generalcatalyst.com/portfolio",
+      "[REAL/ANCHOR]"
+    ],
+    [
+      "Bessemer robotics / physical AI research",
+      "https://www.bvp.com/atlas/intelligent-robotics-the-new-era-of-physical-ai",
+      "[REAL/ANCHOR]"
+    ]
+  ],
+  "reconciliation": {
+    "founder_votes": 17888000,
+    "nonfounder_voting_shares": 8722613,
+    "total_votes": 26610613,
+    "founder_voting_pct": 67.2213,
+    "gross_ras_stake_eur": 366704000,
+    "personal_ras_mark_eur": 333904000,
+    "liquidity_haircut_pct": 8.94,
+    "balance_sheet_check": "PASS",
+    "cap_table_check": "PASS",
+    "address_register_check": "PASS",
+    "asset_uniqueness_check": "PASS",
+    "no_retcon": "PASS"
+  }
+}
